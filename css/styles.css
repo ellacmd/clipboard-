@@ -5,6 +5,11 @@
 body {
   font-family: "Bai Jamjuree", sans-serif;
 }
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px;
+}
 p {
   color: hsl(201, 11%, 66%);
 }
@@ -13,6 +18,9 @@ p {
   padding: 50px;
   display: flex;
   justify-content: center;
+}
+.top{
+  padding: 30px;
 }
 .top h1 {
   text-align: center;
@@ -30,7 +38,7 @@ p {
   padding: 10px 20px;
   color: white;
   background-color: hsl(171, 66%, 44%);
-  margin: 20px 5px;
+  margin: 10px;
 }
 .ios-button:hover {
   opacity: 0.7;
@@ -41,7 +49,7 @@ p {
   padding: 10px 20px;
   color: white;
   background-color: hsl(233, 100%, 69%);
-  margin: 20px 5px;
+  margin:  10px;
 }
 .mac-button:hover {
   opacity: 0.7;
@@ -59,6 +67,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 30px;
+
 }
 .feature {
   padding: 20px;
@@ -66,9 +76,9 @@ p {
 .feature p {
   text-align: left;
 }
-/* .feature-image{
+.feature-image{
     margin-left: -200px;
-} */
+}
 .access {
   display: flex;
   flex-direction: column;
@@ -131,8 +141,51 @@ a {
 a:hover {
   color: hsl(171, 66%, 44%);
 }
-.socials img {
-  padding: 10px;
-  width: 35px;
+.social {
+  fill: #4c545c;
+  margin: 10px;
+}
+.social:hover {
+  fill: hsl(171, 66%, 44%);
+}
+.text{
+  text-align: center;
 }
 /* MEDIA QUERY */
+@media only screen and (max-width: 1100px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .feature p{
+    text-align: center;
+  }
+  .access-image {
+    width: 300px;
+  }
+  .feature-image{
+    margin: 0;
+  }
+  .charge-features {
+    flex-direction: column;
+  }
+  .partners {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
