@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+p {
+  color: hsl(201, 11%, 66%);
+}
+.intro {
+  background: url("/images/bg-header-desktop.png");
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.top h1 {
+  text-align: center;
+}
+.top p {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.ios-button {
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  margin: 20px 5px;
+}
+.ios-button:hover {
+  opacity: 0.7;
+}
+.mac-button {
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  margin: 20px 5px;
+}
+.mac-button:hover {
+  opacity: 0.7;
+}
+.mid {
+  padding: 50px;
+}
+.mid h2 {
+  text-align: center;
+}
+.mid p {
+  text-align: center;
+}
+.features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.feature {
+  padding: 20px;
+}
+.feature p {
+  text-align: left;
+}
+/* .feature-image{
+    margin-left: -200px;
+} */
+.access {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.access h2 {
+  text-align: center;
+  margin: 50px 0 10px;
+}
+.access p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.charge {
+  margin: 50px;
+}
+.charge-features {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.charge-text h2 {
+  text-align: center;
+  margin: 10px;
+}
+.charge-text p {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.partners {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px;
+}
+.download {
+  margin: 100px;
+}
+.download h2 {
+  text-align: center;
+}
+.download p {
+  text-align: center;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: hsl(201, 11%, 66%);
+  padding: 30px;
+}
+a {
+  display: block;
+  margin: 11px;
+  color: hsl(210, 10%, 33%);
+}
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+.socials img {
+  padding: 10px;
+  width: 35px;
+}
+/* MEDIA QUERY */
